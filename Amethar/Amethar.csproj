@@ -1,0 +1,1023 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0D7F98B4-535F-416F-A9C5-17EC31F75A7A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Amethar</RootNamespace>
+    <AssemblyName>Amethar</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>0.0.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.AudioVideoPlayback, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.AudioVideoPlayback.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlignmentSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlignmentSelection.Designer.cs">
+      <DependentUpon>AlignmentSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassSelection.Designer.cs">
+      <DependentUpon>ClassSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IntroCinematic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IntroCinematic.Designer.cs">
+      <DependentUpon>IntroCinematic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadGame.Designer.cs">
+      <DependentUpon>LoadGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewCharacter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewCharacter.Designer.cs">
+      <DependentUpon>NewCharacter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RaceSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaceSelection.Designer.cs">
+      <DependentUpon>RaceSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SceneBitterleafInn01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SceneBitterleafInn01.Designer.cs">
+      <DependentUpon>SceneBitterleafInn01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SummaryScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SummaryScreen.Designer.cs">
+      <DependentUpon>SummaryScreen.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AlignmentSelection.resx">
+      <DependentUpon>AlignmentSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassSelection.resx">
+      <DependentUpon>ClassSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntroCinematic.resx">
+      <DependentUpon>IntroCinematic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadGame.resx">
+      <DependentUpon>LoadGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewCharacter.resx">
+      <DependentUpon>NewCharacter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaceSelection.resx">
+      <DependentUpon>RaceSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SceneBitterleafInn01.resx">
+      <DependentUpon>SceneBitterleafInn01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SummaryScreen.resx">
+      <DependentUpon>SummaryScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="bin\Release\fonts\Mithril.ttf" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AmetharMM.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonMM.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewCharacterBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewCharacter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GenderFemale.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GenderFemaleActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GenderMale.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GenderMaleActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainMenuBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonNewStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonExitHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonExitPressed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonExitStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonLoadHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonLoadPressed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonLoadStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonNewHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonNewPressed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GenderMaleStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonsConfirmHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonsConfirmPressed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonsConfirmStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GenderFemaleHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GenderFemaleStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GenderMaleHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonDwarfActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RaceSelectionBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonDwarfHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonDwarfStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonHumanActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonHumanHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonHumanStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonMoonElfActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonMoonElfHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonMoonElfStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonSandElfActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonSandElfHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonSandElfStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DwarfTooltip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HumanTooltip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoonElfTooltip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SandElfTooltip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PDF01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PDF02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PDF03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PDF04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PDF05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PDM01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PDM02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PDM03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PDM04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PDM05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PHF01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PHF02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PHF03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PHF04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PHF05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PHF06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PHM01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PHM02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PHM03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PHM04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PHM05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PHM06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMF01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMF02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMF03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMF04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMF05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMM01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMM02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMM03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMM04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMM05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PSF01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PSF02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PSF03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PSF04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PSF05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PSM01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PSM02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PSM03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PSM04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PSM05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PFDefault.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PMDefault.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonNext.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonPrevious.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonNextHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonPreviousHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonFormBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonFormBackHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClassSelectionBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonClericActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonClericHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonClericStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonDruidActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonDruidHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonDruidStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonFighterActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonFighterHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonFighterStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonInquisitorActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonInquisitorHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonInquisitorStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonMageActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonMageHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonMageStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonOverviewHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonOverviewPressed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonOverviewStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonPaladinActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonPaladinHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonPaladinStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonPetsHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonPetsPressed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonPetsStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonRangerActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonRangerHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonRangerStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonSkillsHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonSkillsPressed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonSkillsStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonSpellsHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonSpellsInvalid.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonSpellsPressed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonSpellsStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonThiefActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonThiefHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonThiefStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonWeaponsHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonWeaponsPressed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonWeaponsStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClericOverview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DruidOverview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FighterOverview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InquisitorOverview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MageOverview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PaladinOverview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RangerOverview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ThiefOverview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonOverviewInvalid.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonWeaponsInvalid.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FighterWeapons.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PaladinWeapons.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tainted.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClericWeapons.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DruidWeapons.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InquisitorWeapons.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MageWeapons.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RangerWeapons.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ThiefWeapons.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClericSpells.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DruidSpells.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InquisitorSpells.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MageSpells.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PaladinSpells.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RangerPets.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ThiefSkills.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChaoticEvilTooltip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChaoticGoodTooltip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChaoticNeutralTooltip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LawfulEvilTooltip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LawfulGoodTooltip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LawfulNeutralTooltip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NeutralEvilTooltip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NeutralGoodTooltip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\TrajanPro-Regular.ttf" />
+    <None Include="Resources\TrajanPro-Bold.otf" />
+    <None Include="Resources\TrueNeutralTooltip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AlignmentSelectionBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonChaoticEvilStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonChaoticGoodStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonChaoticNeutralStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonLawfulEvilStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonLawfulGoodStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonLawfulNeutralStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonNeutralEvilStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonNeutralGoodStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonTrueNeutralStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonChaoticEvilActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonChaoticEvilHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonChaoticGoodActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonChaoticGoodHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonChaoticNeutralActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonChaoticNeutralHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonCommonerActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonCommonerHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonCommonerStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonLawfulEvilActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonLawfulEvilHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonLawfulGoodActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonLawfulGoodHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonLawfulNeutralActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonLawfulNeutralHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonNeutralEvilActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonNeutralEvilHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonNeutralGoodActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonNeutralGoodHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonNobilityActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonNobilityHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonNobilityStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonTrueNeutralActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonTrueNeutralHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SummaryScreenBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoralEvil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoralGood.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoralNeutral.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SocialChaotic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SocialLawful.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SocialNeutral.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AttributeCharismaHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AttributeCharismaStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AttributeConstitutionHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AttributeConstitutionStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AttributeDexterityHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AttributeDexterityStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AttributeIntelligenceHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AttributeIntelligenceStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AttributeStrengthHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AttributeStrengthStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AttributeWisdomHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AttributeWisdomStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonAbilitiesActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonAddHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonAddStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonBackgroundStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonSubHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonSubStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RemainingPointsBar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ValChaHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ValChaStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ValConHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ValConStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ValDexHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ValDexStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ValIntHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ValIntStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ValStrHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ValStrStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ValWisHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ValWisStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skillpoint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonAbilitiesHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonAbilitiesStatic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonBackgroundActive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonBackgroundHover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoadGameBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <None Include="Resources\Akrilia.jpg" />
+    <None Include="Resources\SceneBitterleaf36.jpg" />
+    <None Include="Resources\SceneBitterleaf35.jpg" />
+    <None Include="Resources\SceneBitterleaf28.jpg" />
+    <None Include="Resources\Methen.jpg" />
+    <None Include="Resources\Hagral.jpg" />
+    <None Include="Resources\SceneBitterleaf26.jpg" />
+    <None Include="Resources\Trevan.jpg" />
+    <None Include="Resources\SceneBitterleaf24.jpg" />
+    <None Include="Resources\SceneBitterleaf23.jpg" />
+    <None Include="Resources\SceneBitterleaf20.jpg" />
+    <None Include="Resources\SceneBitterleaf14.jpg" />
+    <None Include="Resources\Magrina.jpg" />
+    <None Include="Resources\Gylve.jpg" />
+    <None Include="Resources\SceneBitterleaf11c.jpg" />
+    <None Include="Resources\SceneBitterleaf11b.jpg" />
+    <None Include="Resources\SceneBitterleaf11a.jpg" />
+    <None Include="Resources\SceneBitterleaf11.jpg" />
+    <None Include="Resources\SceneBitterleaf10c.jpg" />
+    <None Include="Resources\SceneBitterleaf10b.jpg" />
+    <None Include="Resources\SceneBitterleaf10a.jpg" />
+    <None Include="Resources\SceneBitterleaf09.jpg" />
+    <None Include="Resources\SceneBitterleaf08.jpg" />
+    <None Include="Resources\SceneBitterleaf07.jpg" />
+    <None Include="Resources\SceneBitterleaf06_f.jpg" />
+    <None Include="Resources\SceneBitterleaf06.jpg" />
+    <None Include="Resources\SceneBitterleaf05.jpg" />
+    <None Include="Resources\SceneBitterleaf04_se.jpg" />
+    <None Include="Resources\SceneBitterleaf04.jpg" />
+    <None Include="Resources\SceneBitterleaf03.jpg" />
+    <None Include="Resources\SceneBitterleaf02.jpg" />
+    <None Include="Resources\Valak.jpg" />
+    <None Include="Resources\ButtonContinueStatic.jpg" />
+    <None Include="Resources\ButtonContinuePressed.jpg" />
+    <None Include="Resources\ButtonContinueHover.jpg" />
+    <None Include="Resources\SceneBitterleaf01.jpg" />
+    <None Include="Resources\HighlightSave06Static.jpg" />
+    <None Include="Resources\HighlightSave06Active.jpg" />
+    <None Include="Resources\HighlightSave05Static.jpg" />
+    <None Include="Resources\HighlightSave05Active.jpg" />
+    <None Include="Resources\HighlightSave04Static.jpg" />
+    <None Include="Resources\HighlightSave04Active.jpg" />
+    <None Include="Resources\HighlightSave03Static.jpg" />
+    <None Include="Resources\HighlightSave03Active.jpg" />
+    <None Include="Resources\HighlightSave02Static.jpg" />
+    <None Include="Resources\HighlightSave02Active.jpg" />
+    <None Include="Resources\HighlightSave01Static.jpg" />
+    <None Include="Resources\HighlightSave01Active.jpg" />
+    <None Include="Resources\ButtonUpStatic.png" />
+    <None Include="Resources\ButtonUpHover.png" />
+    <None Include="Resources\ButtonLoadGameStatic.jpg" />
+    <None Include="Resources\ButtonLoadGamePressed.jpg" />
+    <None Include="Resources\ButtonLoadGameHover.jpg" />
+    <None Include="Resources\ButtonDownStatic.png" />
+    <None Include="Resources\ButtonDownHover.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

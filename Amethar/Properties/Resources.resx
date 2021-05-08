@@ -1,0 +1,1018 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PMM04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PMM04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonChaoticNeutralHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonChaoticNeutralHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageOverview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MageOverview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf07.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HighlightSave03Static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HighlightSave03Static.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SummaryScreenBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SummaryScreenBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MoralNeutral" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MoralNeutral.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonPetsPressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonPetsPressed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChaoticEvilTooltip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChaoticEvilTooltip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PDF05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PDF05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PSM04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PSM04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MoonElfTooltip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MoonElfTooltip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonMageActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonMageActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf08.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonNewStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonNewStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonCommonerActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonCommonerActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonNewPressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonNewPressed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonPrevious" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonPrevious.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonDownStatic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonDownStatic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HighlightSave01Static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HighlightSave01Static.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonAbilitiesActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonAbilitiesActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValConStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ValConStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainMenuBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainMenuBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MoralEvil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MoralEvil.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonsConfirmHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonsConfirmHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonChaoticEvilStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonChaoticEvilStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerPets" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RangerPets.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PMF05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PMF05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonNeutralGoodHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonNeutralGoodHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonHumanStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonHumanStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HighlightSave05Active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HighlightSave05Active.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Skillpoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skillpoint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonExitHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonExitHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DruidWeapons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DruidWeapons.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TrueNeutralTooltip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TrueNeutralTooltip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PHM03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PHM03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PMDefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PMDefault.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonLawfulGoodHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonLawfulGoodHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonNobilityHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonNobilityHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonAbilitiesHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonAbilitiesHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PDM03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PDM03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf24.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonRangerHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonRangerHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonBackgroundStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonBackgroundStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValIntHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ValIntHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HumanTooltip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HumanTooltip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValStrHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ValStrHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerWeapons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RangerWeapons.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PSM02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PSM02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AttributeConstitutionStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AttributeConstitutionStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonSkillsPressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonSkillsPressed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonTrueNeutralActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonTrueNeutralActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RemainingPointsBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RemainingPointsBar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonPetsHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonPetsHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PHF02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PHF02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GenderFemaleHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GenderFemaleHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf23.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValStrStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ValStrStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonChaoticEvilHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonChaoticEvilHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AttributeDexterityStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AttributeDexterityStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonLoadStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonLoadStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonWeaponsInvalid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonWeaponsInvalid.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonInquisitorHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonInquisitorHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AttributeIntelligenceStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AttributeIntelligenceStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PHM01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PHM01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ThiefOverview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ThiefOverview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RangerOverview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RangerOverview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SocialNeutral" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SocialNeutral.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonContinueStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonContinueStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GenderFemaleStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GenderFemaleStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RaceSelectionBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RaceSelectionBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonLoadGameHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonLoadGameHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonNobilityActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonNobilityActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HighlightSave05Static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HighlightSave05Static.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonBackgroundHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonBackgroundHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonNeutralEvilStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonNeutralEvilStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonFighterHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonFighterHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonHumanHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonHumanHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonInquisitorStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonInquisitorStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonClericHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonClericHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonDruidActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonDruidActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonNeutralGoodActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonNeutralGoodActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonLawfulEvilActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonLawfulEvilActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonAddHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonAddHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DwarfTooltip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DwarfTooltip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassSelectionBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClassSelectionBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GenderMaleActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GenderMaleActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PDM01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PDM01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonOverviewStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonOverviewStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AttributeConstitutionHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AttributeConstitutionHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonDwarfStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonDwarfStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonWeaponsPressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonWeaponsPressed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PSF01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PSF01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonMoonElfActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonMoonElfActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonRangerActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonRangerActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonSandElfHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonSandElfHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GenderMaleHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GenderMaleHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DruidSpells" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DruidSpells.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonLawfulEvilStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonLawfulEvilStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Trevan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Trevan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonUpHover1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonUpHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PSF03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PSF03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HighlightSave02Static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HighlightSave02Static.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonDruidHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonDruidHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FighterOverview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FighterOverview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonNextHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonNextHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AttributeWisdomStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AttributeWisdomStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PHF03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PHF03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonChaoticNeutralStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonChaoticNeutralStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PDM05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PDM05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf28.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonMoonElfStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonMoonElfStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonFormBackHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonFormBackHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonAddStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonAddStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Methen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Methen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HighlightSave02Active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HighlightSave02Active.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PMF02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PMF02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf10c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf10c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PMM01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PMM01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LawfulGoodTooltip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LawfulGoodTooltip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PHM06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PHM06.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LawfulEvilTooltip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LawfulEvilTooltip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf06_f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf06_f.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonHumanActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonHumanActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GenderMaleStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GenderMaleStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonDownHover1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonDownHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonSpellsStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonSpellsStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonThiefHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonThiefHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonInquisitorActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonInquisitorActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NewCharacterBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NewCharacterBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HighlightSave01Active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HighlightSave01Active.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InquisitorWeapons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InquisitorWeapons.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValDexHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ValDexHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonDownStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonDownStatic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonLoadGameStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonLoadGameStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PMF01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PMF01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonsConfirmStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonsConfirmStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClericWeapons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClericWeapons.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PDF04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PDF04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf10b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf10b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PHF05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PHF05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonRangerStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonRangerStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonOverviewPressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonOverviewPressed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValWisStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ValWisStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValConHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ValConHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InquisitorSpells" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InquisitorSpells.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValChaHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ValChaHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonSandElfStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonSandElfStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonThiefStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonThiefStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ThiefSkills" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ThiefSkills.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonMoonElfHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonMoonElfHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NewCharacter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NewCharacter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HighlightSave03Active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HighlightSave03Active.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonsConfirmPressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonsConfirmPressed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonPaladinStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonPaladinStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PaladinOverview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PaladinOverview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonSubHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonSubHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonExitPressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonExitPressed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PHF01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PHF01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonLawfulGoodActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonLawfulGoodActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlignmentSelectionBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AlignmentSelectionBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PMF04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PMF04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonOverviewHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonOverviewHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf36.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HighlightSave04Active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HighlightSave04Active.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HighlightSave06Static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HighlightSave06Static.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageWeapons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MageWeapons.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MoralGood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MoralGood.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonLoadHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonLoadHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonLoadPressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonLoadPressed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AttributeStrengthStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AttributeStrengthStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf11b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf11b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonUpStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonUpStatic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PMM03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PMM03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonNeutralGoodStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonNeutralGoodStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonTrueNeutralStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonTrueNeutralStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PFDefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PFDefault.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf35.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonPaladinHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonPaladinHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonOverviewInvalid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonOverviewInvalid.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonLawfulNeutralHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonLawfulNeutralHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PSM03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PSM03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ThiefWeapons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ThiefWeapons.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonNewHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonNewHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonWeaponsHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonWeaponsHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonDwarfActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonDwarfActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonSpellsInvalid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonSpellsInvalid.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AttributeCharismaHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AttributeCharismaHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NeutralEvilTooltip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NeutralEvilTooltip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PHM04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PHM04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValDexStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ValDexStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonSpellsHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonSpellsHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonLoadGamePressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonLoadGamePressed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LawfulNeutralTooltip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LawfulNeutralTooltip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonBackgroundActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonBackgroundActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValChaStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ValChaStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonExitStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonExitStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonDwarfHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonDwarfHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AttributeCharismaStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AttributeCharismaStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SandElfTooltip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SandElfTooltip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonSkillsStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonSkillsStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonAbilitiesStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonAbilitiesStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonPetsStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonPetsStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf26.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DruidOverview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DruidOverview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChaoticGoodTooltip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChaoticGoodTooltip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonSkillsHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonSkillsHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonLawfulGoodStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonLawfulGoodStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonContinueHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonContinueHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonSpellsPressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonSpellsPressed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PDM02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PDM02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf20.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SocialLawful" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SocialLawful.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PDM04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PDM04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoadGameBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LoadGameBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonLawfulEvilHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonLawfulEvilHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonWeaponsStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonWeaponsStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClericSpells" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClericSpells.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hagral" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hagral.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonChaoticEvilActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonChaoticEvilActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AttributeIntelligenceHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AttributeIntelligenceHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PSM01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PSM01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonLawfulNeutralActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonLawfulNeutralActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PaladinSpells" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PaladinSpells.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PDF03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PDF03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonNeutralEvilActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonNeutralEvilActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PHF06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PHF06.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonMageHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonMageHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PMM02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PMM02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonContinuePressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonContinuePressed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonTrueNeutralHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonTrueNeutralHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PMM05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PMM05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonFormBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonFormBack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonChaoticGoodActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonChaoticGoodActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf06.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonThiefActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonThiefActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf09.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PMF03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PMF03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf11a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf11a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClericOverview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClericOverview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PSM05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PSM05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FighterWeapons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FighterWeapons.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonPaladinActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonPaladinActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValIntStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ValIntStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PHM05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PHM05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonChaoticGoodHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonChaoticGoodHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonUpStatic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonUpStatic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Magrina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Magrina.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AttributeStrengthHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AttributeStrengthHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonNext" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonNext.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SocialChaotic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SocialChaotic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MageSpells" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MageSpells.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf10a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf10a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PDF02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PDF02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GenderFemaleActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GenderFemaleActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonChaoticNeutralActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonChaoticNeutralActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf04_se" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf04_se.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneBitterleaf11c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneBitterleaf11c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NeutralGoodTooltip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NeutralGoodTooltip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AttributeDexterityHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AttributeDexterityHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonClericActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonClericActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PSF05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PSF05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonFighterStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonFighterStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InquisitorOverview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InquisitorOverview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PaladinWeapons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PaladinWeapons.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HighlightSave06Active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HighlightSave06Active.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AttributeWisdomHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AttributeWisdomHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HighlightSave04Static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HighlightSave04Static.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PHM02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PHM02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tainted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tainted.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Valak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Valak.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChaoticNeutralTooltip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChaoticNeutralTooltip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gylve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gylve.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonLawfulNeutralStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonLawfulNeutralStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonMageStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonMageStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonNeutralEvilHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonNeutralEvilHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PHF04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PHF04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonSandElfActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonSandElfActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PDF01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PDF01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonPreviousHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonPreviousHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PSF02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PSF02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PSF04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PSF04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonFighterActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonFighterActive.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonCommonerStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonCommonerStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonCommonerHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonCommonerHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValWisHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ValWisHover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonClericStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonClericStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonDruidStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonDruidStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonSubStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonSubStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonChaoticGoodStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonChaoticGoodStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonNobilityStatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonNobilityStatic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Akrilia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Akrilia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
